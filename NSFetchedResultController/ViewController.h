@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, NSFetchedResultsControllerDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
+- (IBAction)btnAddClicked:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UITextField *txtName;
 
 @end
 

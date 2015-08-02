@@ -15,6 +15,7 @@
 		38AFDC391B6E51350037AF89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AFDC381B6E51350037AF89 /* Images.xcassets */; };
 		38AFDC3C1B6E51350037AF89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AFDC3A1B6E51350037AF89 /* LaunchScreen.xib */; };
 		38AFDC481B6E51350037AF89 /* NSFetchedResultControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AFDC471B6E51350037AF89 /* NSFetchedResultControllerTests.m */; };
+		38AFDC521B6E52040037AF89 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38AFDC511B6E52040037AF89 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		38AFDC411B6E51350037AF89 /* NSFetchedResultControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSFetchedResultControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AFDC461B6E51350037AF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38AFDC471B6E51350037AF89 /* NSFetchedResultControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSFetchedResultControllerTests.m; sourceTree = "<group>"; };
+		38AFDC511B6E52040037AF89 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		38AFDC1C1B6E51350037AF89 = {
 			isa = PBXGroup;
 			children = (
+				38AFDC511B6E52040037AF89 /* .gitignore */,
 				38AFDC271B6E51350037AF89 /* NSFetchedResultController */,
 				38AFDC441B6E51350037AF89 /* NSFetchedResultControllerTests */,
 				38AFDC261B6E51350037AF89 /* Products */,
@@ -202,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38AFDC521B6E52040037AF89 /* .gitignore in Resources */,
 				38AFDC371B6E51350037AF89 /* Main.storyboard in Resources */,
 				38AFDC3C1B6E51350037AF89 /* LaunchScreen.xib in Resources */,
 				38AFDC391B6E51350037AF89 /* Images.xcassets in Resources */,
